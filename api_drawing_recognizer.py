@@ -44,3 +44,5 @@ def post():
         return response(True, identified_drawing, 200)
     except:
         return response(False, identified_drawing, 500)
+
+app.run()
